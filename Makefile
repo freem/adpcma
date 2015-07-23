@@ -9,4 +9,4 @@ all: adpcma
 adpcma: adpcma.o
 
 clean:
-	rm -f *.o *.obj
+	$(RM) -f *.o *.obj
