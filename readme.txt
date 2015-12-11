@@ -107,4 +107,10 @@ encoder code in C# based on the MVSTracker and MAME codebases, which is what
 this encoder is based on.
 
 ================================================================================
+[License]
+================================================================================
+ISC license, see "LICENSE" file for more information.
+
+
+================================================================================
 [EOF]
