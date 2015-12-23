@@ -1,0 +1,30 @@
+.pc
+.TH ADPCMA 1 "2015-12-22" "0.3" "YM2610 ADPCM-A sample encoder"
+.SH NAME
+adpcma \- YM2610 ADPCM-A sample encoder
+.SH SYNOPSIS
+.B adpcma
+.IR infile
+[outfile]
+.SH DESCRIPTION
+\fBadpcma \fRencodes 18500Hz 16-bit mono little endian PCM (raw or Microsoft Wave format) to the ADPCM-A format used on the Yamaha YM2610.
+.SH OPTIONS
+.TP
+.I infile\ 
+.R The input file to convert. Can be raw PCM data or a Microsoft Wave.
+.TP
+.I outfile\ 
+.R (optional) Output filename.
+.SH EXAMPLES
+.TP
+\fBadpcma \fIinput.raw
+.R Converts the raw PCM file
+\fIinput.raw \fRto \fIout.pcma\fR.
+.TP
+\fBadpcma \fIinput.wav \fIoutput.pcma
+.R Converts the wav file
+\fIinput.wav \fRto \fIoutput.pcma\fR.
+.SH AUTHOR
+freem
+.SH MORE INFORMATION
+Github project: https://github.com/freem/adpcma
