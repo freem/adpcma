@@ -1,3 +1,5 @@
+2023 update: It is recommended to use https://github.com/superctr/adpcm/ instead of this program.
+
 < adpcma - a command line YM2610 adpcm-a sample encoder for Neo-Geo games >
 a little old, but still tastes good! Release 3 (+readme update)
 ================================================================================
